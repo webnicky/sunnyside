@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+  height: 600px;
+  padding: 30px;
+  background-image: url('images/desktop/image-header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 130px;
+  height: 100%;
+  background-image: url('images/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  width: 500px;
+  height: 100%;
+}
+
+header h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-top: 30px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav li:hover{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.arrow{
+    display: block;
+    margin: 0 auto;
+}
+
+/* header ends here */
+
+.grid{
+    height: 1500px;
+}
+
+.row{
+    height: 33.33%;
+    display: flex;
+}
+
+.text,.image{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+.image{
+    background-size: cover;
+}
+
+.transform{
+    background-image: url('images/desktop/image-transform.jpg');
+}
+
+.standout{
+    background-image: url('images/desktop/image-stand-out.jpg');
+}
+
+.text{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    border: 1px solid red;
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+}
+/* grid ends here */
+
+.client-testimonial{
+   
+    height: 600px;
+    padding-top: 100px;
+}
+
+.client-testimonial h3{
+    text-align: center;
+    color: hsl(232, 10%, 55%);
+    letter-spacing: 3;
+    word-spacing: 2;
+    font-size: 20px;
+}
+
+.clients{
+   
+    width: 80%;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.client{
+   
+    height: 700px;
+    width: 33.33%;
+    height: 100%;
+    padding: 20px;
+}
+
+.client p,.client h4{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.client-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.testimony{
+    padding-top: 50px;
+}
+
+.client h4{
+    padding-top: 50px;
+    font-weight: bold;
+    color: grey;
+}
+/* client testimonials end here */
+
+.footer-images{
+    height: 300px;
+    display: flex;
+}
+
+.footer-image{
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottle{
+    background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+}
+
+.orange{
+    background-image: url('images/desktop/image-gallery-orange.jpg');
+}
+
+.cone{
+    background-image: url('images/desktop/image-gallery-cone.jpg');
+}
+
+.sugar{
+    background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+}
+
+footer{
+    height: 300px;
+    background-color: hsl(169, 48%, 68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    height: 80%;
+    width: 300px;
+}
+
+footer h2{
+    text-align: center;
+    color: hsl(168, 43%, 19%);
+}
